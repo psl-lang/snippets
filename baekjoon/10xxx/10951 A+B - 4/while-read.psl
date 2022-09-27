@@ -1,0 +1,5 @@
+i32 a, b, sum
+while read `{a} {b}` {
+    sum = a + b
+    write `{sum}`
+}

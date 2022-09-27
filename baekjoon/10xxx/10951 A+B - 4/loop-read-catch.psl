@@ -1,0 +1,6 @@
+loop {
+    i32 a, b, sum
+    read `{a} {b}` catch { break }
+    sum = a + b
+    write `{sum}`
+}

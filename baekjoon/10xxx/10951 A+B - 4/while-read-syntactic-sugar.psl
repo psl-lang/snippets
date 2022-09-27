@@ -1,0 +1,4 @@
+while read i32 a, b {
+    i32 sum = a + b
+    write sum
+}
